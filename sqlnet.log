@@ -1,0 +1,1197 @@
+
+
+***********************************************************************
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=AMEORAV2.centro.net)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=orfeprue)(CID=(PROGRAM=httpd)(HOST=orfeo.fedepalma.org.centro.net)(USER=apache))))
+
+  VERSION INFORMATION:
+	TNS for Linux: Version 10.2.0.3.0 - Production
+	TCP/IP NT Protocol Adapter for Linux: Version 10.2.0.3.0 - Production
+  Time: 01-OCT-2009 15:17:32
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12541
+    TNS-12541: Message 12541 not found; No message file for product=network, facility=TNS
+    ns secondary err code: 12560
+    nt main err code: 511
+    TNS-00511: Message 511 not found; No message file for product=network, facility=TNS
+    nt secondary err code: 111
+
+
+***********************************************************************
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=AMEORAV2.centro.net)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=orfeprue)(CID=(PROGRAM=httpd)(HOST=orfeo.fedepalma.org.centro.net)(USER=apache))))
+
+  VERSION INFORMATION:
+	TNS for Linux: Version 10.2.0.3.0 - Production
+	TCP/IP NT Protocol Adapter for Linux: Version 10.2.0.3.0 - Production
+  Time: 01-OCT-2009 15:18:02
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12541
+    TNS-12541: Message 12541 not found; No message file for product=network, facility=TNS
+    ns secondary err code: 12560
+    nt main err code: 511
+    TNS-00511: Message 511 not found; No message file for product=network, facility=TNS
+    nt secondary err code: 111
+
+
+***********************************************************************
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=AMEORAV2.centro.net)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=orfeprue)(CID=(PROGRAM=httpd)(HOST=orfeo.fedepalma.org.centro.net)(USER=apache))))
+
+  VERSION INFORMATION:
+	TNS for Linux: Version 10.2.0.3.0 - Production
+	TCP/IP NT Protocol Adapter for Linux: Version 10.2.0.3.0 - Production
+  Time: 01-OCT-2009 15:18:53
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12541
+    TNS-12541: Message 12541 not found; No message file for product=network, facility=TNS
+    ns secondary err code: 12560
+    nt main err code: 511
+    TNS-00511: Message 511 not found; No message file for product=network, facility=TNS
+    nt secondary err code: 111
+
+
+***********************************************************************
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=AMEORAV2.centro.net)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=orfeprue)(CID=(PROGRAM=httpd)(HOST=orfeo.fedepalma.org.centro.net)(USER=apache))))
+
+  VERSION INFORMATION:
+	TNS for Linux: Version 10.2.0.3.0 - Production
+	TCP/IP NT Protocol Adapter for Linux: Version 10.2.0.3.0 - Production
+  Time: 01-OCT-2009 15:22:10
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12541
+    TNS-12541: Message 12541 not found; No message file for product=network, facility=TNS
+    ns secondary err code: 12560
+    nt main err code: 511
+    TNS-00511: Message 511 not found; No message file for product=network, facility=TNS
+    nt secondary err code: 111
+
+
+***********************************************************************
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=AMEORAV2.centro.net)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=orfeprue)(CID=(PROGRAM=httpd)(HOST=orfeo.fedepalma.org.centro.net)(USER=apache))))
+
+  VERSION INFORMATION:
+	TNS for Linux: Version 10.2.0.3.0 - Production
+	TCP/IP NT Protocol Adapter for Linux: Version 10.2.0.3.0 - Production
+  Time: 01-OCT-2009 15:22:57
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12541
+    TNS-12541: Message 12541 not found; No message file for product=network, facility=TNS
+    ns secondary err code: 12560
+    nt main err code: 511
+    TNS-00511: Message 511 not found; No message file for product=network, facility=TNS
+    nt secondary err code: 111
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=AMEORAV2.centro.net)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=orfeprue)(CID=(PROGRAM=httpd)(HOST=orfeo.fedepalma.org.centro.net)(USER=apache))))
+
+  VERSION INFORMATION:
+	TNS for Linux: Version 10.2.0.3.0 - Production
+	TCP/IP NT Protocol Adapter for Linux: Version 10.2.0.3.0 - Production
+  Time: 01-OCT-2009 15:29:24
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12541
+    TNS-12541: Message 12541 not found; No message file for product=network, facility=TNS
+    ns secondary err code: 12560
+    nt main err code: 511
+    TNS-00511: Message 511 not found; No message file for product=network, facility=TNS
+    nt secondary err code: 111
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=AMEORAV2.centro.net)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=orfeprue)(CID=(PROGRAM=httpd)(HOST=orfeo.fedepalma.org.centro.net)(USER=apache))))
+
+  VERSION INFORMATION:
+	TNS for Linux: Version 10.2.0.3.0 - Production
+	TCP/IP NT Protocol Adapter for Linux: Version 10.2.0.3.0 - Production
+  Time: 01-OCT-2009 15:35:50
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12541
+    TNS-12541: Message 12541 not found; No message file for product=network, facility=TNS
+    ns secondary err code: 12560
+    nt main err code: 511
+    TNS-00511: Message 511 not found; No message file for product=network, facility=TNS
+    nt secondary err code: 111
+
+
+***********************************************************************
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=AMEORAV2.centro.net)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=orfeprue)(CID=(PROGRAM=httpd)(HOST=orfeo.fedepalma.org.centro.net)(USER=apache))))
+
+  VERSION INFORMATION:
+	TNS for Linux: Version 10.2.0.3.0 - Production
+	TCP/IP NT Protocol Adapter for Linux: Version 10.2.0.3.0 - Production
+  Time: 01-OCT-2009 15:37:29
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12541
+    TNS-12541: Message 12541 not found; No message file for product=network, facility=TNS
+    ns secondary err code: 12560
+    nt main err code: 511
+    TNS-00511: Message 511 not found; No message file for product=network, facility=TNS
+    nt secondary err code: 111
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=AMEORAV2.centro.net)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=orfeprue)(CID=(PROGRAM=httpd)(HOST=orfeo.fedepalma.org.centro.net)(USER=apache))))
+
+  VERSION INFORMATION:
+	TNS for Linux: Version 10.2.0.3.0 - Production
+	TCP/IP NT Protocol Adapter for Linux: Version 10.2.0.3.0 - Production
+  Time: 01-OCT-2009 15:38:21
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12541
+    TNS-12541: Message 12541 not found; No message file for product=network, facility=TNS
+    ns secondary err code: 12560
+    nt main err code: 511
+    TNS-00511: Message 511 not found; No message file for product=network, facility=TNS
+    nt secondary err code: 111
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=AMEORAV2.centro.net)(PORT=1522))(CONNECT_DATA=(SERVICE_NAME=orfeprue)(CID=(PROGRAM=httpd)(HOST=orfeo.fedepalma.org.centro.net)(USER=apache))))
+
+  VERSION INFORMATION:
+	TNS for Linux: Version 10.2.0.3.0 - Production
+	TCP/IP NT Protocol Adapter for Linux: Version 10.2.0.3.0 - Production
+  Time: 01-OCT-2009 15:46:09
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12541
+    TNS-12541: Message 12541 not found; No message file for product=network, facility=TNS
+    ns secondary err code: 12560
+    nt main err code: 511
+    TNS-00511: Message 511 not found; No message file for product=network, facility=TNS
+    nt secondary err code: 111
+    nt OS err code: 0
+    nt OS err code: 0
+    nt OS err code: 0
+    nt OS err code: 0
+    nt OS err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.100.51)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=orfeprue)(CID=(PROGRAM=httpd)(HOST=orfeo.fedepalma.org.centro.net)(USER=apache))))
+
+  VERSION INFORMATION:
+	TNS for Linux: Version 10.2.0.3.0 - Production
+	TCP/IP NT Protocol Adapter for Linux: Version 10.2.0.3.0 - Production
+  Time: 09-OCT-2009 15:36:29
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12541
+    TNS-12541: Message 12541 not found; No message file for product=network, facility=TNS
+    ns secondary err code: 12560
+    nt main err code: 511
+    TNS-00511: Message 511 not found; No message file for product=network, facility=TNS
+    nt secondary err code: 111
+
+
+***********************************************************************
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.100.51)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=orfeprue)(CID=(PROGRAM=httpd)(HOST=orfeo.fedepalma.org.centro.net)(USER=apache))))
+
+  VERSION INFORMATION:
+	TNS for Linux: Version 10.2.0.3.0 - Production
+	TCP/IP NT Protocol Adapter for Linux: Version 10.2.0.3.0 - Production
+  Time: 09-OCT-2009 16:32:43
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12541
+    TNS-12541: Message 12541 not found; No message file for product=network, facility=TNS
+    ns secondary err code: 12560
+    nt main err code: 511
+    TNS-00511: Message 511 not found; No message file for product=network, facility=TNS
+    nt secondary err code: 111
+    nt OS err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=AMEORAV2.centro.net)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=orfeprue)(CID=(PROGRAM=httpd)(HOST=orfeo.fedepalma.org.centro.net)(USER=apache))))
+
+  VERSION INFORMATION:
+	TNS for Linux: Version 10.2.0.3.0 - Production
+	TCP/IP NT Protocol Adapter for Linux: Version 10.2.0.3.0 - Production
+  Time: 19-OCT-2009 19:46:28
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12541
+    TNS-12541: Message 12541 not found; No message file for product=network, facility=TNS
+    ns secondary err code: 12560
+    nt main err code: 511
+    TNS-00511: Message 511 not found; No message file for product=network, facility=TNS
+    nt secondary err code: 111
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.100.51)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=orfeprue)(CID=(PROGRAM=httpd)(HOST=orfeo.fedepalma.org.centro.net)(USER=apache))))
+
+  VERSION INFORMATION:
+	TNS for Linux: Version 10.2.0.3.0 - Production
+	TCP/IP NT Protocol Adapter for Linux: Version 10.2.0.3.0 - Production
+  Time: 19-OCT-2009 19:55:04
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12541
+    TNS-12541: Message 12541 not found; No message file for product=network, facility=TNS
+    ns secondary err code: 12560
+    nt main err code: 511
+    TNS-00511: Message 511 not found; No message file for product=network, facility=TNS
+    nt secondary err code: 111
+
+
+***********************************************************************
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.100.51)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=orfeprue)(CID=(PROGRAM=httpd)(HOST=orfeo.fedepalma.org.centro.net)(USER=apache))))
+
+  VERSION INFORMATION:
+	TNS for Linux: Version 10.2.0.3.0 - Production
+	TCP/IP NT Protocol Adapter for Linux: Version 10.2.0.3.0 - Production
+  Time: 19-OCT-2009 19:56:51
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12541
+    TNS-12541: Message 12541 not found; No message file for product=network, facility=TNS
+    ns secondary err code: 12560
+    nt main err code: 511
+    TNS-00511: Message 511 not found; No message file for product=network, facility=TNS
+    nt secondary err code: 111
+
+
+***********************************************************************
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.100.51)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=orfeprue)(CID=(PROGRAM=httpd)(HOST=orfeo.fedepalma.org.centro.net)(USER=apache))))
+
+  VERSION INFORMATION:
+	TNS for Linux: Version 10.2.0.3.0 - Production
+	TCP/IP NT Protocol Adapter for Linux: Version 10.2.0.3.0 - Production
+  Time: 19-OCT-2009 19:58:03
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12541
+    TNS-12541: Message 12541 not found; No message file for product=network, facility=TNS
+    ns secondary err code: 12560
+    nt main err code: 511
+    TNS-00511: Message 511 not found; No message file for product=network, facility=TNS
+    nt secondary err code: 111
+
+
+***********************************************************************
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.100.51)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=orfeprue)(CID=(PROGRAM=httpd)(HOST=orfeo.fedepalma.org.centro.net)(USER=apache))))
+
+  VERSION INFORMATION:
+	TNS for Linux: Version 10.2.0.3.0 - Production
+	TCP/IP NT Protocol Adapter for Linux: Version 10.2.0.3.0 - Production
+  Time: 19-OCT-2009 20:00:06
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12541
+    TNS-12541: Message 12541 not found; No message file for product=network, facility=TNS
+    ns secondary err code: 12560
+    nt main err code: 511
+    TNS-00511: Message 511 not found; No message file for product=network, facility=TNS
+    nt secondary err code: 111
+
+
+***********************************************************************
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.100.51)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=orfeprue)(CID=(PROGRAM=httpd)(HOST=orfeo.fedepalma.org.centro.net)(USER=apache))))
+
+  VERSION INFORMATION:
+	TNS for Linux: Version 10.2.0.3.0 - Production
+	TCP/IP NT Protocol Adapter for Linux: Version 10.2.0.3.0 - Production
+  Time: 19-OCT-2009 20:00:16
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12541
+    TNS-12541: Message 12541 not found; No message file for product=network, facility=TNS
+    ns secondary err code: 12560
+    nt main err code: 511
+    TNS-00511: Message 511 not found; No message file for product=network, facility=TNS
+    nt secondary err code: 111
+
+
+***********************************************************************
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.100.51)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=orfeprue)(CID=(PROGRAM=httpd)(HOST=orfeo.fedepalma.org.centro.net)(USER=apache))))
+
+  VERSION INFORMATION:
+	TNS for Linux: Version 10.2.0.3.0 - Production
+	TCP/IP NT Protocol Adapter for Linux: Version 10.2.0.3.0 - Production
+  Time: 19-OCT-2009 20:01:39
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12541
+    TNS-12541: Message 12541 not found; No message file for product=network, facility=TNS
+    ns secondary err code: 12560
+    nt main err code: 511
+    TNS-00511: Message 511 not found; No message file for product=network, facility=TNS
+    nt secondary err code: 111
+
+
+***********************************************************************
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.100.51)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=orfeprue)(CID=(PROGRAM=httpd)(HOST=orfeo.fedepalma.org.centro.net)(USER=apache))))
+
+  VERSION INFORMATION:
+	TNS for Linux: Version 10.2.0.3.0 - Production
+	TCP/IP NT Protocol Adapter for Linux: Version 10.2.0.3.0 - Production
+  Time: 19-OCT-2009 20:03:10
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12541
+    TNS-12541: Message 12541 not found; No message file for product=network, facility=TNS
+    ns secondary err code: 12560
+    nt main err code: 511
+    TNS-00511: Message 511 not found; No message file for product=network, facility=TNS
+    nt secondary err code: 111
+
+
+***********************************************************************
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.100.51)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=orfeprue)(CID=(PROGRAM=httpd)(HOST=orfeo.fedepalma.org.centro.net)(USER=apache))))
+
+  VERSION INFORMATION:
+	TNS for Linux: Version 10.2.0.3.0 - Production
+	TCP/IP NT Protocol Adapter for Linux: Version 10.2.0.3.0 - Production
+  Time: 19-OCT-2009 20:05:40
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12541
+    TNS-12541: Message 12541 not found; No message file for product=network, facility=TNS
+    ns secondary err code: 12560
+    nt main err code: 511
+    TNS-00511: Message 511 not found; No message file for product=network, facility=TNS
+    nt secondary err code: 111
+    nt OS err code: 0
+    nt OS err code: 0
+    nt OS err code: 0
+    nt OS err code: 0
+    nt OS err code: 0
+    nt OS err code: 0
+    nt OS err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.100.51)(PORT=1522))(CONNECT_DATA=(SERVICE_NAME=orfeprue)(CID=(PROGRAM=httpd)(HOST=orfeo.fedepalma.org.centro.net)(USER=apache))))
+
+  VERSION INFORMATION:
+	TNS for Linux: Version 10.2.0.3.0 - Production
+	TCP/IP NT Protocol Adapter for Linux: Version 10.2.0.3.0 - Production
+  Time: 02-NOV-2009 20:01:16
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12541
+    TNS-12541: Message 12541 not found; No message file for product=network, facility=TNS
+    ns secondary err code: 12560
+    nt main err code: 511
+    TNS-00511: Message 511 not found; No message file for product=network, facility=TNS
+    nt secondary err code: 111
+
+
+***********************************************************************
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.100.51)(PORT=1522))(CONNECT_DATA=(SERVICE_NAME=orfeprue)(CID=(PROGRAM=httpd)(HOST=orfeo.fedepalma.org.centro.net)(USER=apache))))
+
+  VERSION INFORMATION:
+	TNS for Linux: Version 10.2.0.3.0 - Production
+	TCP/IP NT Protocol Adapter for Linux: Version 10.2.0.3.0 - Production
+  Time: 02-NOV-2009 20:01:46
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12541
+    TNS-12541: Message 12541 not found; No message file for product=network, facility=TNS
+    ns secondary err code: 12560
+    nt main err code: 511
+    TNS-00511: Message 511 not found; No message file for product=network, facility=TNS
+    nt secondary err code: 111
+
+
+***********************************************************************
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.100.51)(PORT=1522))(CONNECT_DATA=(SERVICE_NAME=orfeprue)(CID=(PROGRAM=httpd)(HOST=orfeo.fedepalma.org.centro.net)(USER=apache))))
+
+  VERSION INFORMATION:
+	TNS for Linux: Version 10.2.0.3.0 - Production
+	TCP/IP NT Protocol Adapter for Linux: Version 10.2.0.3.0 - Production
+  Time: 02-NOV-2009 20:02:01
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12541
+    TNS-12541: Message 12541 not found; No message file for product=network, facility=TNS
+    ns secondary err code: 12560
+    nt main err code: 511
+    TNS-00511: Message 511 not found; No message file for product=network, facility=TNS
+    nt secondary err code: 111
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.100.51)(PORT=1522))(CONNECT_DATA=(SERVICE_NAME=orfeprue)(CID=(PROGRAM=httpd)(HOST=orfeo.fedepalma.org.centro.net)(USER=apache))))
+
+  VERSION INFORMATION:
+	TNS for Linux: Version 10.2.0.3.0 - Production
+	TCP/IP NT Protocol Adapter for Linux: Version 10.2.0.3.0 - Production
+  Time: 02-NOV-2009 20:02:35
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12541
+    TNS-12541: Message 12541 not found; No message file for product=network, facility=TNS
+    ns secondary err code: 12560
+    nt main err code: 511
+    TNS-00511: Message 511 not found; No message file for product=network, facility=TNS
+    nt secondary err code: 111
+
+
+***********************************************************************
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.100.51)(PORT=1522))(CONNECT_DATA=(SERVICE_NAME=orfeprue)(CID=(PROGRAM=httpd)(HOST=orfeo.fedepalma.org.centro.net)(USER=apache))))
+
+  VERSION INFORMATION:
+	TNS for Linux: Version 10.2.0.3.0 - Production
+	TCP/IP NT Protocol Adapter for Linux: Version 10.2.0.3.0 - Production
+  Time: 02-NOV-2009 20:03:11
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12541
+    TNS-12541: Message 12541 not found; No message file for product=network, facility=TNS
+    ns secondary err code: 12560
+    nt main err code: 511
+    TNS-00511: Message 511 not found; No message file for product=network, facility=TNS
+    nt secondary err code: 111
+
+
+***********************************************************************
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.100.51)(PORT=1522))(CONNECT_DATA=(SERVICE_NAME=orfeprue)(CID=(PROGRAM=httpd)(HOST=orfeo.fedepalma.org.centro.net)(USER=apache))))
+
+  VERSION INFORMATION:
+	TNS for Linux: Version 10.2.0.3.0 - Production
+	TCP/IP NT Protocol Adapter for Linux: Version 10.2.0.3.0 - Production
+  Time: 02-NOV-2009 20:03:45
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12541
+    TNS-12541: Message 12541 not found; No message file for product=network, facility=TNS
+    ns secondary err code: 12560
+    nt main err code: 511
+    TNS-00511: Message 511 not found; No message file for product=network, facility=TNS
+    nt secondary err code: 111
+
+
+***********************************************************************
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.100.51)(PORT=1522))(CONNECT_DATA=(SERVICE_NAME=orfeprue)(CID=(PROGRAM=httpd)(HOST=orfeo.fedepalma.org.centro.net)(USER=apache))))
+
+  VERSION INFORMATION:
+	TNS for Linux: Version 10.2.0.3.0 - Production
+	TCP/IP NT Protocol Adapter for Linux: Version 10.2.0.3.0 - Production
+  Time: 02-NOV-2009 20:04:07
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12541
+    TNS-12541: Message 12541 not found; No message file for product=network, facility=TNS
+    ns secondary err code: 12560
+    nt main err code: 511
+    TNS-00511: Message 511 not found; No message file for product=network, facility=TNS
+    nt secondary err code: 111
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.100.51)(PORT=1522))(CONNECT_DATA=(SERVICE_NAME=orfeprue)(CID=(PROGRAM=httpd)(HOST=orfeo.fedepalma.org.centro.net)(USER=apache))))
+
+  VERSION INFORMATION:
+	TNS for Linux: Version 10.2.0.3.0 - Production
+	TCP/IP NT Protocol Adapter for Linux: Version 10.2.0.3.0 - Production
+  Time: 02-NOV-2009 20:04:52
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12541
+    TNS-12541: Message 12541 not found; No message file for product=network, facility=TNS
+    ns secondary err code: 12560
+    nt main err code: 511
+    TNS-00511: Message 511 not found; No message file for product=network, facility=TNS
+    nt secondary err code: 111
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.100.51)(PORT=1522))(CONNECT_DATA=(SERVICE_NAME=orfeprue)(CID=(PROGRAM=httpd)(HOST=orfeo.fedepalma.org.centro.net)(USER=apache))))
+
+  VERSION INFORMATION:
+	TNS for Linux: Version 10.2.0.3.0 - Production
+	TCP/IP NT Protocol Adapter for Linux: Version 10.2.0.3.0 - Production
+  Time: 02-NOV-2009 21:26:58
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12541
+    TNS-12541: Message 12541 not found; No message file for product=network, facility=TNS
+    ns secondary err code: 12560
+    nt main err code: 511
+    TNS-00511: Message 511 not found; No message file for product=network, facility=TNS
+    nt secondary err code: 111
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.100.51)(PORT=1522))(CONNECT_DATA=(SERVICE_NAME=orfeprue)(CID=(PROGRAM=httpd)(HOST=orfeo.fedepalma.org.centro.net)(USER=apache))))
+
+  VERSION INFORMATION:
+	TNS for Linux: Version 10.2.0.3.0 - Production
+	TCP/IP NT Protocol Adapter for Linux: Version 10.2.0.3.0 - Production
+  Time: 03-NOV-2009 08:01:08
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12541
+    TNS-12541: Message 12541 not found; No message file for product=network, facility=TNS
+    ns secondary err code: 12560
+    nt main err code: 511
+    TNS-00511: Message 511 not found; No message file for product=network, facility=TNS
+    nt secondary err code: 111
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.100.51)(PORT=1522))(CONNECT_DATA=(SERVICE_NAME=orfeprue)(CID=(PROGRAM=httpd)(HOST=orfeo.fedepalma.org.centro.net)(USER=apache))))
+
+  VERSION INFORMATION:
+	TNS for Linux: Version 10.2.0.3.0 - Production
+	TCP/IP NT Protocol Adapter for Linux: Version 10.2.0.3.0 - Production
+  Time: 03-NOV-2009 08:02:50
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12541
+    TNS-12541: Message 12541 not found; No message file for product=network, facility=TNS
+    ns secondary err code: 12560
+    nt main err code: 511
+    TNS-00511: Message 511 not found; No message file for product=network, facility=TNS
+    nt secondary err code: 111
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.100.51)(PORT=1522))(CONNECT_DATA=(SERVICE_NAME=orfeprue)(CID=(PROGRAM=httpd)(HOST=orfeo.fedepalma.org.centro.net)(USER=apache))))
+
+  VERSION INFORMATION:
+	TNS for Linux: Version 10.2.0.3.0 - Production
+	TCP/IP NT Protocol Adapter for Linux: Version 10.2.0.3.0 - Production
+  Time: 03-NOV-2009 08:05:36
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12541
+    TNS-12541: Message 12541 not found; No message file for product=network, facility=TNS
+    ns secondary err code: 12560
+    nt main err code: 511
+    TNS-00511: Message 511 not found; No message file for product=network, facility=TNS
+    nt secondary err code: 111
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.100.51)(PORT=1522))(CONNECT_DATA=(SERVICE_NAME=orfeprue)(CID=(PROGRAM=httpd)(HOST=orfeo.fedepalma.org.centro.net)(USER=apache))))
+
+  VERSION INFORMATION:
+	TNS for Linux: Version 10.2.0.3.0 - Production
+	TCP/IP NT Protocol Adapter for Linux: Version 10.2.0.3.0 - Production
+  Time: 03-NOV-2009 08:06:46
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12541
+    TNS-12541: Message 12541 not found; No message file for product=network, facility=TNS
+    ns secondary err code: 12560
+    nt main err code: 511
+    TNS-00511: Message 511 not found; No message file for product=network, facility=TNS
+    nt secondary err code: 111
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.100.51)(PORT=1522))(CONNECT_DATA=(SERVICE_NAME=orfeprue)(CID=(PROGRAM=httpd)(HOST=orfeo.fedepalma.org.centro.net)(USER=apache))))
+
+  VERSION INFORMATION:
+	TNS for Linux: Version 10.2.0.3.0 - Production
+	TCP/IP NT Protocol Adapter for Linux: Version 10.2.0.3.0 - Production
+  Time: 03-NOV-2009 08:21:04
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12541
+    TNS-12541: Message 12541 not found; No message file for product=network, facility=TNS
+    ns secondary err code: 12560
+    nt main err code: 511
+    TNS-00511: Message 511 not found; No message file for product=network, facility=TNS
+    nt secondary err code: 111
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.100.51)(PORT=1522))(CONNECT_DATA=(SERVICE_NAME=orfeprue)(CID=(PROGRAM=httpd)(HOST=orfeo.fedepalma.org.centro.net)(USER=apache))))
+
+  VERSION INFORMATION:
+	TNS for Linux: Version 10.2.0.3.0 - Production
+	TCP/IP NT Protocol Adapter for Linux: Version 10.2.0.3.0 - Production
+  Time: 03-NOV-2009 08:21:31
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12541
+    TNS-12541: Message 12541 not found; No message file for product=network, facility=TNS
+    ns secondary err code: 12560
+    nt main err code: 511
+    TNS-00511: Message 511 not found; No message file for product=network, facility=TNS
+    nt secondary err code: 111
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.100.51)(PORT=1522))(CONNECT_DATA=(SERVICE_NAME=orfeprue)(CID=(PROGRAM=httpd)(HOST=orfeo.fedepalma.org.centro.net)(USER=apache))))
+
+  VERSION INFORMATION:
+	TNS for Linux: Version 10.2.0.3.0 - Production
+	TCP/IP NT Protocol Adapter for Linux: Version 10.2.0.3.0 - Production
+  Time: 03-NOV-2009 08:35:42
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12541
+    TNS-12541: Message 12541 not found; No message file for product=network, facility=TNS
+    ns secondary err code: 12560
+    nt main err code: 511
+    TNS-00511: Message 511 not found; No message file for product=network, facility=TNS
+    nt secondary err code: 111
+
+
+***********************************************************************
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.100.51)(PORT=1522))(CONNECT_DATA=(SERVICE_NAME=orfeprue)(CID=(PROGRAM=httpd)(HOST=orfeo.fedepalma.org.centro.net)(USER=apache))))
+
+  VERSION INFORMATION:
+	TNS for Linux: Version 10.2.0.3.0 - Production
+	TCP/IP NT Protocol Adapter for Linux: Version 10.2.0.3.0 - Production
+  Time: 03-NOV-2009 08:36:11
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12541
+    TNS-12541: Message 12541 not found; No message file for product=network, facility=TNS
+    ns secondary err code: 12560
+    nt main err code: 511
+    TNS-00511: Message 511 not found; No message file for product=network, facility=TNS
+    nt secondary err code: 111
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.100.51)(PORT=1522))(CONNECT_DATA=(SERVICE_NAME=orfeprue)(CID=(PROGRAM=httpd)(HOST=orfeo.fedepalma.org.centro.net)(USER=apache))))
+
+  VERSION INFORMATION:
+	TNS for Linux: Version 10.2.0.3.0 - Production
+	TCP/IP NT Protocol Adapter for Linux: Version 10.2.0.3.0 - Production
+  Time: 03-NOV-2009 08:39:54
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12541
+    TNS-12541: Message 12541 not found; No message file for product=network, facility=TNS
+    ns secondary err code: 12560
+    nt main err code: 511
+    TNS-00511: Message 511 not found; No message file for product=network, facility=TNS
+    nt secondary err code: 111
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.100.51)(PORT=1522))(CONNECT_DATA=(SERVICE_NAME=orfeprue)(CID=(PROGRAM=httpd)(HOST=orfeo.fedepalma.org.centro.net)(USER=apache))))
+
+  VERSION INFORMATION:
+	TNS for Linux: Version 10.2.0.3.0 - Production
+	TCP/IP NT Protocol Adapter for Linux: Version 10.2.0.3.0 - Production
+  Time: 03-NOV-2009 08:43:39
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12541
+    TNS-12541: Message 12541 not found; No message file for product=network, facility=TNS
+    ns secondary err code: 12560
+    nt main err code: 511
+    TNS-00511: Message 511 not found; No message file for product=network, facility=TNS
+    nt secondary err code: 111
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.100.51)(PORT=1522))(CONNECT_DATA=(SERVICE_NAME=orfeprue)(CID=(PROGRAM=httpd)(HOST=orfeo.fedepalma.org.centro.net)(USER=apache))))
+
+  VERSION INFORMATION:
+	TNS for Linux: Version 10.2.0.3.0 - Production
+	TCP/IP NT Protocol Adapter for Linux: Version 10.2.0.3.0 - Production
+  Time: 03-NOV-2009 08:44:15
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12541
+    TNS-12541: Message 12541 not found; No message file for product=network, facility=TNS
+    ns secondary err code: 12560
+    nt main err code: 511
+    TNS-00511: Message 511 not found; No message file for product=network, facility=TNS
+    nt secondary err code: 111
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.100.51)(PORT=1522))(CONNECT_DATA=(SERVICE_NAME=orfeprue)(CID=(PROGRAM=httpd)(HOST=orfeo.fedepalma.org.centro.net)(USER=apache))))
+
+  VERSION INFORMATION:
+	TNS for Linux: Version 10.2.0.3.0 - Production
+	TCP/IP NT Protocol Adapter for Linux: Version 10.2.0.3.0 - Production
+  Time: 03-NOV-2009 08:44:40
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12541
+    TNS-12541: Message 12541 not found; No message file for product=network, facility=TNS
+    ns secondary err code: 12560
+    nt main err code: 511
+    TNS-00511: Message 511 not found; No message file for product=network, facility=TNS
+    nt secondary err code: 111
+
+
+***********************************************************************
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.100.51)(PORT=1522))(CONNECT_DATA=(SERVICE_NAME=orfeprue)(CID=(PROGRAM=httpd)(HOST=orfeo.fedepalma.org.centro.net)(USER=apache))))
+
+  VERSION INFORMATION:
+	TNS for Linux: Version 10.2.0.3.0 - Production
+	TCP/IP NT Protocol Adapter for Linux: Version 10.2.0.3.0 - Production
+  Time: 03-NOV-2009 08:49:36
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12541
+    TNS-12541: Message 12541 not found; No message file for product=network, facility=TNS
+    ns secondary err code: 12560
+    nt main err code: 511
+    TNS-00511: Message 511 not found; No message file for product=network, facility=TNS
+    nt secondary err code: 111
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.100.51)(PORT=1522))(CONNECT_DATA=(SERVICE_NAME=orfeprue)(CID=(PROGRAM=httpd)(HOST=orfeo.fedepalma.org.centro.net)(USER=apache))))
+
+  VERSION INFORMATION:
+	TNS for Linux: Version 10.2.0.3.0 - Production
+	TCP/IP NT Protocol Adapter for Linux: Version 10.2.0.3.0 - Production
+  Time: 03-NOV-2009 08:49:53
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12541
+    TNS-12541: Message 12541 not found; No message file for product=network, facility=TNS
+    ns secondary err code: 12560
+    nt main err code: 511
+    TNS-00511: Message 511 not found; No message file for product=network, facility=TNS
+    nt secondary err code: 111
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.100.51)(PORT=1522))(CONNECT_DATA=(SERVICE_NAME=orfeprue)(CID=(PROGRAM=httpd)(HOST=orfeo.fedepalma.org.centro.net)(USER=apache))))
+
+  VERSION INFORMATION:
+	TNS for Linux: Version 10.2.0.3.0 - Production
+	TCP/IP NT Protocol Adapter for Linux: Version 10.2.0.3.0 - Production
+  Time: 03-NOV-2009 08:50:31
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12541
+    TNS-12541: Message 12541 not found; No message file for product=network, facility=TNS
+    ns secondary err code: 12560
+    nt main err code: 511
+    TNS-00511: Message 511 not found; No message file for product=network, facility=TNS
+    nt secondary err code: 111
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.100.51)(PORT=1522))(CONNECT_DATA=(SERVICE_NAME=orfeprue)(CID=(PROGRAM=httpd)(HOST=orfeo.fedepalma.org.centro.net)(USER=apache))))
+
+  VERSION INFORMATION:
+	TNS for Linux: Version 10.2.0.3.0 - Production
+	TCP/IP NT Protocol Adapter for Linux: Version 10.2.0.3.0 - Production
+  Time: 03-NOV-2009 08:50:45
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12541
+    TNS-12541: Message 12541 not found; No message file for product=network, facility=TNS
+    ns secondary err code: 12560
+    nt main err code: 511
+    TNS-00511: Message 511 not found; No message file for product=network, facility=TNS
+    nt secondary err code: 111
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.100.51)(PORT=1522))(CONNECT_DATA=(SERVICE_NAME=orfeprue)(CID=(PROGRAM=httpd)(HOST=orfeo.fedepalma.org.centro.net)(USER=apache))))
+
+  VERSION INFORMATION:
+	TNS for Linux: Version 10.2.0.3.0 - Production
+	TCP/IP NT Protocol Adapter for Linux: Version 10.2.0.3.0 - Production
+  Time: 03-NOV-2009 08:50:51
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12541
+    TNS-12541: Message 12541 not found; No message file for product=network, facility=TNS
+    ns secondary err code: 12560
+    nt main err code: 511
+    TNS-00511: Message 511 not found; No message file for product=network, facility=TNS
+    nt secondary err code: 111
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.100.51)(PORT=1522))(CONNECT_DATA=(SERVICE_NAME=orfeprue)(CID=(PROGRAM=httpd)(HOST=orfeo.fedepalma.org.centro.net)(USER=apache))))
+
+  VERSION INFORMATION:
+	TNS for Linux: Version 10.2.0.3.0 - Production
+	TCP/IP NT Protocol Adapter for Linux: Version 10.2.0.3.0 - Production
+  Time: 03-NOV-2009 08:51:03
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12541
+    TNS-12541: Message 12541 not found; No message file for product=network, facility=TNS
+    ns secondary err code: 12560
+    nt main err code: 511
+    TNS-00511: Message 511 not found; No message file for product=network, facility=TNS
+    nt secondary err code: 111
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.100.51)(PORT=1522))(CONNECT_DATA=(SERVICE_NAME=orfeprue)(CID=(PROGRAM=httpd)(HOST=orfeo.fedepalma.org.centro.net)(USER=apache))))
+
+  VERSION INFORMATION:
+	TNS for Linux: Version 10.2.0.3.0 - Production
+	TCP/IP NT Protocol Adapter for Linux: Version 10.2.0.3.0 - Production
+  Time: 03-NOV-2009 08:51:27
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12541
+    TNS-12541: Message 12541 not found; No message file for product=network, facility=TNS
+    ns secondary err code: 12560
+    nt main err code: 511
+    TNS-00511: Message 511 not found; No message file for product=network, facility=TNS
+    nt secondary err code: 111
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.100.51)(PORT=1522))(CONNECT_DATA=(SERVICE_NAME=orfeprue)(CID=(PROGRAM=httpd)(HOST=orfeo.fedepalma.org.centro.net)(USER=apache))))
+
+  VERSION INFORMATION:
+	TNS for Linux: Version 10.2.0.3.0 - Production
+	TCP/IP NT Protocol Adapter for Linux: Version 10.2.0.3.0 - Production
+  Time: 03-NOV-2009 08:51:31
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12541
+    TNS-12541: Message 12541 not found; No message file for product=network, facility=TNS
+    ns secondary err code: 12560
+    nt main err code: 511
+    TNS-00511: Message 511 not found; No message file for product=network, facility=TNS
+    nt secondary err code: 111
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.100.51)(PORT=1522))(CONNECT_DATA=(SERVICE_NAME=orfeprue)(CID=(PROGRAM=httpd)(HOST=orfeo.fedepalma.org.centro.net)(USER=apache))))
+
+  VERSION INFORMATION:
+	TNS for Linux: Version 10.2.0.3.0 - Production
+	TCP/IP NT Protocol Adapter for Linux: Version 10.2.0.3.0 - Production
+  Time: 03-NOV-2009 08:51:45
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12541
+    TNS-12541: Message 12541 not found; No message file for product=network, facility=TNS
+    ns secondary err code: 12560
+    nt main err code: 511
+    TNS-00511: Message 511 not found; No message file for product=network, facility=TNS
+    nt secondary err code: 111
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.100.51)(PORT=1522))(CONNECT_DATA=(SERVICE_NAME=orfeprue)(CID=(PROGRAM=httpd)(HOST=orfeo.fedepalma.org.centro.net)(USER=apache))))
+
+  VERSION INFORMATION:
+	TNS for Linux: Version 10.2.0.3.0 - Production
+	TCP/IP NT Protocol Adapter for Linux: Version 10.2.0.3.0 - Production
+  Time: 03-NOV-2009 08:51:54
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12541
+    TNS-12541: Message 12541 not found; No message file for product=network, facility=TNS
+    ns secondary err code: 12560
+    nt main err code: 511
+    TNS-00511: Message 511 not found; No message file for product=network, facility=TNS
+    nt secondary err code: 111
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.100.51)(PORT=1522))(CONNECT_DATA=(SERVICE_NAME=orfeprue)(CID=(PROGRAM=httpd)(HOST=orfeo.fedepalma.org.centro.net)(USER=apache))))
+
+  VERSION INFORMATION:
+	TNS for Linux: Version 10.2.0.3.0 - Production
+	TCP/IP NT Protocol Adapter for Linux: Version 10.2.0.3.0 - Production
+  Time: 03-NOV-2009 08:51:57
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12541
+    TNS-12541: Message 12541 not found; No message file for product=network, facility=TNS
+    ns secondary err code: 12560
+    nt main err code: 511
+    TNS-00511: Message 511 not found; No message file for product=network, facility=TNS
+    nt secondary err code: 111
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.100.51)(PORT=1522))(CONNECT_DATA=(SERVICE_NAME=orfeprue)(CID=(PROGRAM=httpd)(HOST=orfeo.fedepalma.org.centro.net)(USER=apache))))
+
+  VERSION INFORMATION:
+	TNS for Linux: Version 10.2.0.3.0 - Production
+	TCP/IP NT Protocol Adapter for Linux: Version 10.2.0.3.0 - Production
+  Time: 03-NOV-2009 08:52:05
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12541
+    TNS-12541: Message 12541 not found; No message file for product=network, facility=TNS
+    ns secondary err code: 12560
+    nt main err code: 511
+    TNS-00511: Message 511 not found; No message file for product=network, facility=TNS
+    nt secondary err code: 111
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.100.51)(PORT=1522))(CONNECT_DATA=(SERVICE_NAME=orfeprue)(CID=(PROGRAM=httpd)(HOST=orfeo.fedepalma.org.centro.net)(USER=apache))))
+
+  VERSION INFORMATION:
+	TNS for Linux: Version 10.2.0.3.0 - Production
+	TCP/IP NT Protocol Adapter for Linux: Version 10.2.0.3.0 - Production
+  Time: 03-NOV-2009 08:52:09
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12541
+    TNS-12541: Message 12541 not found; No message file for product=network, facility=TNS
+    ns secondary err code: 12560
+    nt main err code: 511
+    TNS-00511: Message 511 not found; No message file for product=network, facility=TNS
+    nt secondary err code: 111
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.100.51)(PORT=1522))(CONNECT_DATA=(SERVICE_NAME=orfeprue)(CID=(PROGRAM=httpd)(HOST=orfeo.fedepalma.org.centro.net)(USER=apache))))
+
+  VERSION INFORMATION:
+	TNS for Linux: Version 10.2.0.3.0 - Production
+	TCP/IP NT Protocol Adapter for Linux: Version 10.2.0.3.0 - Production
+  Time: 03-NOV-2009 08:52:27
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12541
+    TNS-12541: Message 12541 not found; No message file for product=network, facility=TNS
+    ns secondary err code: 12560
+    nt main err code: 511
+    TNS-00511: Message 511 not found; No message file for product=network, facility=TNS
+    nt secondary err code: 111
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.100.51)(PORT=1522))(CONNECT_DATA=(SERVICE_NAME=orfeprue)(CID=(PROGRAM=httpd)(HOST=orfeo.fedepalma.org.centro.net)(USER=apache))))
+
+  VERSION INFORMATION:
+	TNS for Linux: Version 10.2.0.3.0 - Production
+	TCP/IP NT Protocol Adapter for Linux: Version 10.2.0.3.0 - Production
+  Time: 03-NOV-2009 08:52:37
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12541
+    TNS-12541: Message 12541 not found; No message file for product=network, facility=TNS
+    ns secondary err code: 12560
+    nt main err code: 511
+    TNS-00511: Message 511 not found; No message file for product=network, facility=TNS
+    nt secondary err code: 111
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.100.51)(PORT=1522))(CONNECT_DATA=(SERVICE_NAME=orfeprue)(CID=(PROGRAM=httpd)(HOST=orfeo.fedepalma.org.centro.net)(USER=apache))))
+
+  VERSION INFORMATION:
+	TNS for Linux: Version 10.2.0.3.0 - Production
+	TCP/IP NT Protocol Adapter for Linux: Version 10.2.0.3.0 - Production
+  Time: 03-NOV-2009 08:53:05
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12541
+    TNS-12541: Message 12541 not found; No message file for product=network, facility=TNS
+    ns secondary err code: 12560
+    nt main err code: 511
+    TNS-00511: Message 511 not found; No message file for product=network, facility=TNS
+    nt secondary err code: 111
+    nt OS err code: 0
+    nt OS err code: 0
+    nt OS err code: 0
+    nt OS err code: 0
+    nt OS err code: 0
+    nt OS err code: 0
+    nt OS err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12170.
+
+  VERSION INFORMATION:
+	TNS for Linux: Version 10.2.0.3.0 - Production
+	TCP/IP NT Protocol Adapter for Linux: Version 10.2.0.3.0 - Production
+  Time: 02-FEB-2010 10:37:49
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12535
+    TNS-12535: Message 12535 not found; No message file for product=network, facility=TNS
+    ns secondary err code: 12560
+    nt main err code: 505
+    TNS-00505: Message 505 not found; No message file for product=network, facility=TNS
+    nt secondary err code: 110
+    nt OS err code: 0
+  Client address: <unknown>
+
+
+***********************************************************************
+Fatal NI connect error 12547, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.100.51)(PORT=1522))(CONNECT_DATA=(SERVICE_NAME=orfeprue)(CID=(PROGRAM=httpd)(HOST=orfeo.fedepalma.org.centro.net)(USER=apache))))
+
+  VERSION INFORMATION:
+	TNS for Linux: Version 10.2.0.3.0 - Production
+	TCP/IP NT Protocol Adapter for Linux: Version 10.2.0.3.0 - Production
+  Time: 02-FEB-2010 10:38:44
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12547
+    TNS-12547: Message 12547 not found; No message file for product=network, facility=TNS
+    ns secondary err code: 12560
+    nt main err code: 517
+    TNS-00517: Message 517 not found; No message file for product=network, facility=TNS
+    nt secondary err code: 104
+
+
+***********************************************************************
+Fatal NI connect error 12547, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.100.51)(PORT=1522))(CONNECT_DATA=(SERVICE_NAME=orfeprue)(CID=(PROGRAM=httpd)(HOST=orfeo.fedepalma.org.centro.net)(USER=apache))))
+
+  VERSION INFORMATION:
+	TNS for Linux: Version 10.2.0.3.0 - Production
+	TCP/IP NT Protocol Adapter for Linux: Version 10.2.0.3.0 - Production
+  Time: 02-FEB-2010 10:41:32
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12547
+    TNS-12547: Message 12547 not found; No message file for product=network, facility=TNS
+    ns secondary err code: 12560
+    nt main err code: 517
+    TNS-00517: Message 517 not found; No message file for product=network, facility=TNS
+    nt secondary err code: 104
+
+
+***********************************************************************
+Fatal NI connect error 12547, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.100.51)(PORT=1522))(CONNECT_DATA=(SERVICE_NAME=orfeprue)(CID=(PROGRAM=httpd)(HOST=orfeo.fedepalma.org.centro.net)(USER=apache))))
+
+  VERSION INFORMATION:
+	TNS for Linux: Version 10.2.0.3.0 - Production
+	TCP/IP NT Protocol Adapter for Linux: Version 10.2.0.3.0 - Production
+  Time: 02-FEB-2010 10:43:08
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12547
+    TNS-12547: Message 12547 not found; No message file for product=network, facility=TNS
+    ns secondary err code: 12560
+    nt main err code: 517
+    TNS-00517: Message 517 not found; No message file for product=network, facility=TNS
+    nt secondary err code: 104
+    nt OS err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12547, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.100.51)(PORT=1522))(CONNECT_DATA=(SERVICE_NAME=orfeprue)(CID=(PROGRAM=httpd)(HOST=orfeo.fedepalma.org.centro.net)(USER=apache))))
+
+  VERSION INFORMATION:
+	TNS for Linux: Version 10.2.0.3.0 - Production
+	TCP/IP NT Protocol Adapter for Linux: Version 10.2.0.3.0 - Production
+  Time: 02-FEB-2010 11:08:13
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12547
+    TNS-12547: Message 12547 not found; No message file for product=network, facility=TNS
+    ns secondary err code: 12560
+    nt main err code: 517
+    TNS-00517: Message 517 not found; No message file for product=network, facility=TNS
+    nt secondary err code: 104
+    nt OS err code: 0
+    nt OS err code: 0
