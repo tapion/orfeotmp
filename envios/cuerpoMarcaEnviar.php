@@ -165,7 +165,7 @@ $sqlFechaHoy = $db->conn->DBDate($fecha_hoy);
             $estado_sal_max = 3;
 
         if ($estado_sal) {
-            $accion_sal = "Marcar Documentos Como Impresos";
+            $accion_sal = "Generar Listado de Entrega Según Fecha y Hora:";
             $nomcarpeta = "Documentos Para Impresion";
 
             $pagina_sig = "cuerpoMarcaEnviar.php";
@@ -375,27 +375,19 @@ include "../envios/paBuscar.php";
  */
 ?>
                                 <table BORDER=0  cellpad=2 cellspacing='2'  width="100%" >
-                                    <tr>
-                                        <td width='50%' align='left' height="40" class="titulos2" >
+                                    <tr style="background-color: #CACACA">
+                                        <td width='50%' style="background-color: #CACACA" align='left' height="40" class="titulos2" >
                                             <b>Listar Por </b>
                                             <a href='<?= $PHP_SELF . "?" . $encabezado ?>1&ordcambio=1&orno=97&estado_sal=3&estado_sal_max=3' class='textoOpcion' alt='Ordenamiento'>
                                                 <span class='leidos'>Impresos</span></a>
                     <?= $img4 ?> <a href='<?= $PHP_SELF . "?" . $encabezado ?>1&ordcambio=1&orno=99&estado_sal=2&estado_sal_max=2' class='textoOpcion' alt='Ordenamiento'><span class='no_leidos'>
                                                     Por Imprimir</span></a>
-
                                         </td>
-                                        <td class="titulos2" align="center">
-
-
-
+                                        <td class="titulos2" style="text-align: right;background-color: #CACACA;padding: 6px">
                                             <a href='<?= $pagina_sig ?>?<?= $encabezado ?> '></a>
-                                            <input type="submit" value="Listado de Entrega, Radicados Seleccionados" name="Enviar" id="Enviar" valign='middle' class='botones_largo' style="background-color:#207186;width:268px" onclick="listadoEntrega();" /><br/><br/>
-                                            <input type="submit" value="<?= $accion_sal ?>" name="Enviar" id="Enviar" valign='middle' class='botones_largo' onclick="marcar();" />
-
-
-
+                                            <label style="margin-right: 6px">Generar Listado de Entrega con Radicados Seleccionados:</label><input type="submit" value=">>" name="Enviar" id="Enviar" valign='middle' class='botones_2' style="background-color:#F90;" onclick="listadoEntrega();" /><br/><br/>
+                                            <label style="margin-right: 6px"><?php echo $accion_sal; ?></label><input type="submit" value=">>" name="Enviar" id="Enviar" valign='middle' class='botones_2' style="background-color:#207186;" onclick="marcar();" />
                                         </td>
-
                                     </tr>
                                 </table>
 
@@ -407,7 +399,7 @@ include "../envios/paBuscar.php";
                         </tr>
                     </table>
 <?
-$accion_sal2 = "Generar Listado de Entrega";
+$accion_sal2 = "Marcar Documentos como Impresos";
 include "../envios/paListado.php";
 /*  GENERACION LISTADO DE RADICADOS
  *  Aqui utilizamos la clase adodb para generar el listado de los radicados
