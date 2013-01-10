@@ -399,7 +399,7 @@ include "../envios/paBuscar.php";
                         </tr>
                     </table>
 <?
-$accion_sal2 = "Marcar Documentos como Impresos";
+$accion_sal2 = "Listado de Entrega según Fecha y Hora";
 include "../envios/paListado.php";
 /*  GENERACION LISTADO DE RADICADOS
  *  Aqui utilizamos la clase adodb para generar el listado de los radicados
