@@ -15,6 +15,14 @@ if (!$fecha_busq)
 ?>
 <head>
     <link rel="stylesheet" href="../estilos/orfeo.css">
+    <style type="text/css">
+        #divErrorResultados{
+            color: white;
+            background-color: red;
+            font-weight: bolder;
+            padding: .5%;
+        }
+    </style>
 </head>
 <script type="text/javascript">
     function validar(action){

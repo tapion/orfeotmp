@@ -88,16 +88,18 @@ if ($generar_listado) {
     } while ($i_total3 > 0);
     $pdf->Output($arpdf_tmp);
 }
+if($total_registros > 0){
 ?>
-<TABLE BORDER=0 WIDTH=100% class="borde_tab">
+<TABLE BORDER=0 WIDTH=100%>
     <TR>
-        <TD class="listado2"  align="center">
-    <center>
-        Se han Generado <b><?= $total_registros ?> </b>Registros para Imprimir en <?= $paginas ?> Planillas. <br>
-        <a href='<?= $arpdf_tmp ?>' target='<?= date("dmYh") . time("his") ?>'>Abrir Archivo PDF</a>
-        <a href='exportaHojaCalculo.php?opc=listado' target='_new'>Abrir hoja de cálculo</a>
-    </center>
-</td>
-</TR>
+        <TD class="etextomenu"  align="center">
+            <b>Se han Generado <?php echo $total_registros; ?> Registros para Imprimir en <?php echo $paginas; ?> Planillas. <br>
+                <a href='<?php echo $arpdf_tmp; ?>' target='<?php echo date("dmYh") . time("his"); ?>'>Abrir Archivo</a>
+                <a href='exportaHojaCalculo.php?opc=listado' target='_new'>Abrir hoja de cálculo</a></b>
+        </td>
+    </TR>
 </TABLE>
+<?php }else{ ?>
+<div id="divErrorResultados">No se encontraron registros para imprimir</div>
+<?php } ?>
 </body>
