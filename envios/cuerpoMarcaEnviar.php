@@ -386,7 +386,9 @@ include "../envios/paBuscar.php";
                                         <td class="titulos2" style="text-align: right;background-color: #CACACA;padding: 6px">
                                             <a href='<?= $pagina_sig ?>?<?= $encabezado ?> '></a>
                                             <label style="margin-right: 6px">Generar Listado de Entrega con Radicados Seleccionados:</label><input type="submit" value=">>" name="Enviar" id="Enviar" valign='middle' class='botones_2' style="background-color:#F90;" onclick="listadoEntrega();" /><br/><br/>
-                                            <label style="margin-right: 6px"><?php echo $accion_sal; ?></label><input type="submit" value=">>" name="Enviar" id="Enviar" valign='middle' class='botones_2' style="background-color:#207186;" onclick="marcar();" />
+                                            <label style="margin-right: 6px">Generar listado de Entrega según Fecha y Hora</label><input type="button" onclick="document.getElementById('formBotonTempListadoFecha').submit();" value=">>" name="Enviar2" id="Enviar2" valign='middle' class='botones_2' style="background-color:#207186;" /><br/>
+                                            <input type="submit" value="<?php echo $accion_sal; ?>" name="Enviar" id="Enviar" valign='middle'  class='botones_largo' onclick="marcar();" /><br/>
+                                            		
                                         </td>
                                     </tr>
                                 </table>
@@ -400,6 +402,7 @@ include "../envios/paBuscar.php";
                     </table>
 <?
 $accion_sal2 = "Listado de Entrega según Fecha y Hora";
+$ocultarBoton = true;
 include "../envios/paListado.php";
 /*  GENERACION LISTADO DE RADICADOS
  *  Aqui utilizamos la clase adodb para generar el listado de los radicados
