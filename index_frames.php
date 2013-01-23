@@ -9,10 +9,27 @@ if(!isset($_SESSION['dependencia'])) include "./rec_session.php";
 <head>
 <title>.:: Sistema de Gesti&oacute;n Documental ::.</title>
 <link rel="shortcut icon" href="imagenes/arpa.gif">
-<script>
+<script type="text/javascript">
   function cerrar_ventana()
         {
            window.close();
+        }
+        var GLOBAL = {
+            radicados: new Array()
+        };
+        function eliminaCarrito(valor){
+            var ind = GLOBAL.radicados.indexOf(valor);
+            if(ind > 0){
+                GLOBAL.radicados.splice(GLOBAL.radicados.indexOf(valor),1);
+            }
+            cuentaRadicados();
+        } //fin function eliminaCarrito(valor){
+        function agregaCarrito(valor){
+            GLOBAL.radicados.push(valor);
+            cuentaRadicados();
+        } //fin function agregaCarrito(valor){
+        function cuentaRadicados(){
+            window.frames.topFrame.document.getElementById("txtRadicados").value = GLOBAL.radicados.length;
         }
 </script>
 </head>

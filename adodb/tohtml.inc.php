@@ -258,7 +258,7 @@ GLOBAL $gSQLMaxRows,$gSQLBlockRows,$HTTP_GET_VARS,$HTTP_SESSION_VARS;
 			if ($noCheckjDevolucion=="disable")
 			$v = "<img src=$rutaRaiz/imagenes/check_x.jpg alt='Debe Modificar el Documento para poder reenviarlo'  title='Debe Modificar el Documento para poder reenviarlo' >";
 			else
-			$v = "<input type=checkbox name='checkValue[$chk_value]' value='$chk_nomb' $valueCheck >";
+			$v = "<input type=checkbox name='checkValue[$chk_value]' value='$chk_nomb' $valueCheck id='$chk_value' />";
 			$special = "si";
 			break;
 		case ($fname =='IMG_' or $fname=='IDT_');
