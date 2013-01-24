@@ -68,6 +68,9 @@ $fechah = date("Ymdhms");
                 var GLOBAL_TOP = {
                     carrito: false
                 };
+                function fnEjecutaCarro(){
+                    parent.fnEjecutaCarro();
+                }
         </script>
         <style type="text/css">
             #divCarritoCompra{
@@ -84,6 +87,9 @@ $fechah = date("Ymdhms");
                 cursor: pointer;
                 
             }
+            #imgEjecutar:hover{
+                cursor: pointer;
+            }
             #divCarritoCompra span{
                 margin-top: .2%
             }
@@ -95,14 +101,11 @@ $fechah = date("Ymdhms");
             }
             #txtRadicados{
                 padding-left: 1%;
+                font-size: 80%;
             }
             #divCarrRadicados{
-                margin-top: .3%;
                 display: none;
             }
-/*            #imgOffCar{
-                display: inline;
-            }*/
         </style>
     </head>
     <body topmargin="0" leftmargin="0" bgcolor="#ffffff"
@@ -110,12 +113,12 @@ $fechah = date("Ymdhms");
         <div id="divCarritoCompra">
             <div id="divCarrSuperior" onclick="fnControlCarrito();">
                 <span>Carrito</span>
-                <img src="iconos/off.png" id="imgOffCar" ALT='Activar Carrito' />
-                <img src="iconos/on.png" id="imgOnCar" ALT='Apagar Carrito' />
+                <img src="iconos/off.png" id="imgOffCar" ALT='Activar Carrito' title="Activar Carrito" />
+                <img src="iconos/on.png" id="imgOnCar" ALT='Apagar Carrito' title="Apagar Carrito" />
             </div>
             <div id="divCarrRadicados">
-                <label for="txtRadicados">No.</label>
-                <input type="text" size="3" readonly="true" id="txtRadicados" value="0" />
+                <input type="text" size="2" readonly="true" id="txtRadicados" value="0" />
+                <img src="iconos/go.png" id="imgEjecutar" ALT='Ejecutar Carrito' title='Ejecutar Carrito' onclick="fnEjecutaCarro();" />
             </div>
         </div>
         <form name=form_cerrar action=cerrar_session.php?<?= session_name() . "=" . session_id() . "&fechah=$fechah&krd=$krd" ?> target=_parent method=post>
@@ -124,7 +127,6 @@ $fechah = date("Ymdhms");
                     <td width="206"><img name="cabezote_r1_c1" src="imagenes/logo.gif" width="206" height="76" border="0" alt=""></td>
                     <td><img name="cabezote_r1_c2" src="imagenes/cabezote_r1_c2.gif" width="100%" height="76" border="0" alt=""></td>
                     <td background="imagenes/sistema-gestion.gif"></td>
-                <!--    <td width="62"><a href="./Manuales/carrito.php" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image8','','imagenes/overAyuda.gif',1)"></a></td>-->
                     <td width="62"><a href="./Manuales/index.php" target="Ayuda_Orfeo" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image8','','imagenes/overAyuda.gif',1)"><img src="imagenes/ayuda.gif" name="Image8" width="62" height="76" border="0" title="MANUAL ORFEO" ALT='Ayuda'></a></td>
                     <td width="61"><a href="mod_datos.php?<?= "krd=$krd&info=false" ?>" target=mainFrame onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image9','','imagenes/overInfo.gif',1)"><img src="imagenes/info.gif" name="Image9" width="61" height="76" border="0"></a></td>
                     <td width="61"><a href="menu/creditos.php" target=mainFrame onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image12','','imagenes/overCreditos.gif',1)"><img src="imagenes/creditos.gif" name="Image12" width="61" height="76" border="0"></a></td>
@@ -146,5 +148,8 @@ $fechah = date("Ymdhms");
                 </tr>
             </table>
         </form>
+                            <form id="frmCarrito" method="post" target="mainFrame" action="cuerpoCarrito.php">
+                                <input type="hidden" name="radicadosCarrito" id="radicadosCarrito" />
+                            </form>
     </body>
 </html>

@@ -12,15 +12,15 @@ if (!$ruta_raiz)
     $(document).ready(function(){
         /*Funcion  que es llamada para los que tengan el name _carrito */                 
         $('input:checkbox').change(function(){
-//            console.log(eval(this.name));
-//            return;
+            //            console.log(eval(this.name));
+            //            return;
             if(parent.window.frames.topFrame.GLOBAL_TOP.carrito){
                 adminCarrito(this);
             }
-//            console.log(parent.window.frames.topFrame.GLOBAL_TOP.carrito);
-//                ajaxCarriRad($('#'+ this.id).attr('checked'), this.id);
-            }            
-        ); //fin $('input:checkbox').change(function(){
+            //            console.log(parent.window.frames.topFrame.GLOBAL_TOP.carrito);
+            //                ajaxCarriRad($('#'+ this.id).attr('checked'), this.id);
+        }            
+    ); //fin $('input:checkbox').change(function(){
     });     
     function adminCarrito(input){
         if(input.checked){
@@ -30,12 +30,18 @@ if (!$ruta_raiz)
         }        
     }
     function markAll(){
-        if(document.form1.elements['checkAll'].checked)
-            for(i=1;i<document.form1.elements.length;i++)
+        if(document.form1.elements['checkAll'].checked){
+            for(i=1;i<document.form1.elements.length;i++){
                 document.form1.elements[i].checked=1;
-        else
-            for(i=1;i<document.form1.elements.length;i++)
+                parent.agregaCarrito(document.form1.elements[i].id);
+            }
+        }else{
+            for(i=1;i<document.form1.elements.length;i++){
                 document.form1.elements[i].checked=0;
+                parent.eliminaCarrito(document.form1.elements[i].id);
+            }
+                
+        }
     }
 
     <!--
