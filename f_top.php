@@ -74,10 +74,10 @@ $fechah = date("Ymdhms");
         </script>
         <style type="text/css">
             #divCarritoCompra{
-                width: 100%;
+                width: 15%;
                 position: absolute;
                 left: 50%;
-                top: 22%;
+                top: 28%;
                 color: white;
                 font-weight: bolder;
                 /*        display: none;*/
