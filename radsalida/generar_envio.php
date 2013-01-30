@@ -12,6 +12,22 @@ $ADODB_FETCH_MODE = ADODB_FETCH_ASSOC;
 $db = new ConnectionHandler("..");
 if (!$fecha_busq)
     $fecha_busq = date("Y-m-d");
+$mensajeAlert = "";
+if (isset($_POST["ibtnModifica"]) && !empty($_POST["plaAnt"]) && !empty($_POST["plaNuevo"])) {
+    $fecha_mes = substr($fecha_busq, 0, 7);
+    // conte de el ultimo numero de planilla generado.
+    $sqlChar = $db->conn->SQLDate("Y-m", "SGD_RENV_FECH");
+    //include "$ruta_raiz/include/query/radsalida/queryGenerar_envio.php";	
+    $query = "update sgd_renv_regenvio set sgd_renv_planilla = '{$_POST["plaNuevo"]}'
+                WHERE DEPE_CODI = $dependencia                 
+                AND " . $db->conn->length . "(sgd_renv_planilla) > 0 
+                AND sgd_fenv_codigo = $tipo_envio 
+                AND sgd_renv_planilla = '{$_POST["plaAnt"]}'";
+    $db->conn->SetFetchMode(ADODB_FETCH_ASSOC);
+    $ADODB_FETCH_MODE = ADODB_FETCH_ASSOC;
+    $rs = $db->query($query);
+    $mensajeAlert = "Se ha actualizado correctamente el número de planilla";
+}
 ?>
 <head>
     <link rel="stylesheet" href="../estilos/orfeo.css">
@@ -22,6 +38,34 @@ if (!$fecha_busq)
             font-weight: bolder;
             padding: .5%;
         }
+        .tbModifica caption{
+            font-size: 14px;
+            font-weight: bolder;
+        }
+        .tbModifica{
+            font-family: Verdana, Arial, Helvetica, sans-serif;
+            font-size: 10px;
+            border-collapse: collapse;            
+            display: <?php echo (isset($_POST["tipo_envio"]) && !empty($_POST["tipo_envio"])) ? "block" : "none"; ?>;
+        }
+        .tbModifica td{
+            text-align: center;
+            padding: 0%;
+            margin: 0%;
+        }
+        .tbModifica input{
+            font-family: Verdana;
+            font-size: 10px;
+            color: #000000;
+            width: 60%;
+        }
+        #ibtnModifica{
+            margin-bottom: 4px;
+        }
+        #tdmodifica{
+            background-color: #E3E8EC;
+            /*            width:100%;*/
+        }
     </style>
 </head>
 <script type="text/javascript">
@@ -31,30 +75,28 @@ if (!$fecha_busq)
         }else{
             document.new_product.action = "generar_envio.php?<?= session_name() . "=" . session_id() . "&krd=$krd&fecha_h=$fechah" ?>&generar_listado= Generar Nuevo Envio ";
         }
-<? if ($tipo_envio != 105) { ?>
-            solonumeros();
-<? } else {
-    ?>document.new_product.submit();<? } ?>
+    }
+    function rightTrim(sString){
+        while (sString.substring(sString.length-1, sString.length) == ' '){	
+            sString = sString.substring(0,sString.length-1);  
         }
+        return sString;
+    }
 
-        function rightTrim(sString){
-            while (sString.substring(sString.length-1, sString.length) == ' '){	
-                sString = sString.substring(0,sString.length-1);  
-            }
-            return sString;
+    function solonumeros()
+    {	jh =  document.getElementById('no_planilla');
+        if(rightTrim(jh.value) == "" || isNaN(jh.value))
+        {	alert('Solo introduzca numeros.' );
+            jh.value = "";
+            jh.focus();
+            return false;
         }
-
-        function solonumeros()
-        {	jh =  document.getElementById('no_planilla');
-            if(rightTrim(jh.value) == "" || isNaN(jh.value))
-            {	alert('Solo introduzca numeros.' );
-                jh.value = "";
-                jh.focus();
-                return false;
-            }
-            else
-            {	document.new_product.submit();	}
-        }
+        else
+        {	document.new_product.submit();	}
+    }
+<?php if ($mensajeAlert !== "") { ?>
+            alert("<?php echo $mensajeAlert; ?>");
+<?php } ?>
 </script>
 <BODY>
     <div id="spiffycalendar" class="text"></div>
@@ -65,7 +107,7 @@ if (!$fecha_busq)
     </script>
     <table class=borde_tab width='100%' cellspacing="5"><tr><td class=titulos2><center>GENERACION PLANILLAS Y GUIAS DE CORREO</center></td></tr></table>
 <table><tr><td></td></tr></table>
-<form name="new_product"  action='generar_envio.php?<?= session_name() . "=" . session_id() . "&krd=$krd&fecha_h=$fechah" ?>' method=post>
+<form name="new_product"  action='generar_envio.php?<?= session_name() . "=" . session_id() . "&krd=$krd&fecha_h=$fechah" ?>' method="post">
     <center>
         <TABLE width="450" class="borde_tab" cellspacing="5">
             <!--DWLayoutTable-->
@@ -101,8 +143,7 @@ if (!$fecha_busq)
                     if (!$segundos_fin)
                         $segundos_fin = date("s");
                     ?>
-
-                    <select name=hora_ini class='select'>
+                    <select name="hora_ini" class='select'>
                         <?
                         for ($i = 0; $i <= 23; $i++) {
                             if ($hora_ini == $i) {
@@ -175,18 +216,37 @@ if (!$fecha_busq)
     <TD valign="top" align="left" class='listado2'>
 
         <?php
-        $sqlfenv = "select  " . $db->conn->Concat("sgd_fenv_codigo", "'-'", " sgd_fenv_descrip") . ",sgd_fenv_codigo from sgd_fenv_frmenvio where sgd_fenv_planilla =1 and sgd_fenv_estado=1 order by 2";
+        $sqlfenv = "select  " . $db->conn->Concat("sgd_fenv_codigo", "'-'", " sgd_fenv_descrip") . ",sgd_fenv_codigo from sgd_fenv_frmenvio order by 2";
         $rs = $db->conn->Execute($sqlfenv);
 
         echo $rs->GetMenu2('tipo_envio', $tipo_envio, "0:&lt;&lt; SELECCIONE &gt;&gt;", false, 0, "class='select' onChange='this.form.submit();'");
         ?>
     </TD>
-</tr><? if ($tipo_envio != 105) { ?>
+</tr>
+<tr>
+    <td colspan="9" id="tdModifica">
+        <table class="tbModifica">
+            <caption>Modificar planilla</caption>
+            <tr>
+                <th>Planilla antigüa</th>
+                <th>Planilla Nueva</th>
+                <th></th>
+            </tr>
+            <tr>
+                <td><input type="text" id="plaAnt" name="plaAnt" /></td>
+                <td><input type="text" id="plaNueva" name="plaNuevo" /></td>
+                <td><button type="submit" id="ibtnModifica" name="ibtnModifica" >Modificar</button></td>
+            </tr>
+        </table>
+    </td>
+
+</tr>
+<? if ($tipo_envio != 105) { ?>
     <tr>
         <TD height="26" class='titulos2'>Numero de Planilla</TD>
         <TD valign="top" align="left" class='listado2'>
             <input type="text" name="no_planilla" id="no_planilla" value='<?= $no_planilla ?>' class='tex_area' size=11 maxlength="9" >
-            <?
+            <?php
             $fecha_mes = substr($fecha_busq, 0, 7);
             // conte de el ultimo numero de planilla generado.
             $sqlChar = $db->conn->SQLDate("Y-m", "SGD_RENV_FECH");
@@ -202,12 +262,7 @@ if (!$fecha_busq)
                 $planilla_ant = $rs->fields["SGD_RENV_PLANILLA"];
                 $fecha_planilla_ant = $rs->fields["SGD_RENV_FECH"];
             }
-
-            if ($tipo_envio == "101" or $tipo_envio == "108" or $tipo_envio == "109") {
-                echo "<br><span class=etexto>&Uacute;ltima planilla generada : <b> $planilla_ant </b>  Fec:$fecha_planilla_ant";
-            } else {
-                
-            }
+            echo "<br><span class=etexto>&Uacute;ltima planilla generada : <b> $planilla_ant </b>  Fec:$fecha_planilla_ant";
             // Fin conteo planilla generada
             ?>
         </TD>
